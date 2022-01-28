@@ -167,7 +167,8 @@ input {
     padding: 5px 0px 5px 5px;
     margin: 5px 0px 5px 0px;
     border-radius: .5em;
-    border: none
+    border: none;
+    color: black;
 }
 
 textarea {
@@ -180,13 +181,14 @@ textarea {
     padding: 5px 0px 5px 5px;
     margin: 5px 0px 5px 0px;
     border-radius: .5em;
-    border: none
+    border: none;
 }
 
 .send_form {
     background-color: var(--main-blue);
     border: 1px transparent;
-    height: 30px;
+    height: 40px;
+    font-size: 1.4rem;
     border-radius: .5em;
     padding: 5px 0px 5px 5px;
     margin: 5px 0px 5px 0px;
@@ -260,6 +262,10 @@ details > a:hover {
 
 #linkedin {
     filter: invert(26%) sepia(92%) saturate(1143%) hue-rotate(173deg) brightness(109%) contrast(103%);
+}
+
+::placeholder {
+    opacity: .85;
 }
 
 /* Desktop */
