@@ -3,7 +3,7 @@ const logo = document.getElementById("logo");
 logo.addEventListener("click", homeFunction);
 
 function homeFunction() {
-    window.location.href = "/index.html";
+    window.location.href = "/";
 }
 
 const backToTop = document.getElementById("Icon_awesome-arrow-up");
